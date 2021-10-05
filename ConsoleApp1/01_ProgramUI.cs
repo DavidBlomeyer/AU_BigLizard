@@ -29,8 +29,12 @@ namespace _00_Komodo_Gold_Console
             {
                 Console.Clear();
                 Console.WriteLine("     Hello.  Welcome to the Komodo Gold Console App!\n" +
-                                  "*******************************************************\n");
-                Console.WriteLine("This is set up as a test of the 'Apps' below which are set up as stand-alone programs, so inside these apps if you use the exit option in closes the console rather then returning to this menu.  As of now, the 'Mains' in each App are disabled, so if you want to run them separately you can go in and 'switch' mains/switch around Startup Projects.");
+                                  "*********************************************************\n");
+                Console.WriteLine("     This is set up as a test of the 'Apps' below which are set up as stand-alone programs.\n" +
+                                  "     Inside these apps if you use the exit option in closes the console rather then returning to this menu.\n" +
+                                  "     As of now, the 'Mains' in each App are enabled, so if you want to run them separately you can go in and \n" +
+                                  "     'not' mains/switch around Startup Projects.\n" +
+                                  "");
                 Console.WriteLine("Select a menu option\n" +
                                   "1. Cafe App\n" +
                                   "2. Claims App\n" +
