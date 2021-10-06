@@ -50,6 +50,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="KomodoGoldSpecs.md" />
+    <None Include="Scratch.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\01_CafeTest\01_Komodo_Cafe_Test.csproj">

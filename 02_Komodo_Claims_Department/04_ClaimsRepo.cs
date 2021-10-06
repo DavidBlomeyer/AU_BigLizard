@@ -12,8 +12,6 @@ namespace _02_Komodo_Claims_Department
         // Instance the ClaimsContent Object
         private Queue<ClaimsContent> _queueOfClaimsContent = new Queue<ClaimsContent>();
 
-        // Verbs
-
         // C
         public void EnqueueEntryToQueue(ClaimsContent content)
         {
@@ -27,30 +25,10 @@ namespace _02_Komodo_Claims_Department
         }
 
         // U - Unused
-        public bool UpdateEntryInQueue(int originalClaimID, ClaimsContent newContent)
-        {
-            return true;
-        }
 
         // D - Unused
-        public bool RemoveEntryFromQueue(int claimID)
-        {
-            return true;
-        }
 
         // Localized Helper Methods
-        public ClaimsContent GetClaimsContentEntryByClaimID(int claimsID)
-        {
-            foreach (ClaimsContent content in _queueOfClaimsContent)
-            {
-                if (content.ClaimID == claimsID)
-                {
-                    return content;
-                }
-            }
-
-            return null; // not found
-        }
 
         public ClaimsContent DequeueClaimsContentEntry()
         {

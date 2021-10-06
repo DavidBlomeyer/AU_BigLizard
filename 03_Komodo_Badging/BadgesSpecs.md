@@ -99,10 +99,11 @@ ________________________________________________________________________________
 UI Diagram
 
 A. Hello - BadgesStartMenu()
-    1. See Full Menu -
-    2. See Single Menu Item - 
-    3. Add a Menu Item - 
-    4. Delete a Menu Item - 
+
+    1.  Add a Badge
+    2.  Edit a Badge
+    3.  Delete all Door access from a Badge
+    4.  List all Badges
 
     0. Exit
 
@@ -110,8 +111,16 @@ A. Hello - BadgesStartMenu()
 
 Var List (POCO BadgesContent- dictionary)
 
-var Vars
-
+(key) int BadgeID
+List of Door Names for access:
+A1
+A2
+A3
+A4
+A5
+A6
+A7
+A8
 
 
 File Structure

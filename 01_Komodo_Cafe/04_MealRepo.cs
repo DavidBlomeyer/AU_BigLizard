@@ -12,8 +12,6 @@ namespace _01_Komodo_Cafe
         // Instance the MealContent Object
         private List<MealContent> _listOfMealContent = new List<MealContent>();
 
-        // Verbs
-
         // C
         public void AddEntryToList(MealContent content)
         {
@@ -26,22 +24,7 @@ namespace _01_Komodo_Cafe
             return _listOfMealContent;
         }
 
-        // U
-        public bool UpdateEntryInList(int originalMealNumber, MealContent newContent)
-        {
-            MealContent oldContent = GetMealContentEntryByMealNumber(originalMealNumber);
-
-            if (oldContent != null)
-            {
-                oldContent.MealNumber = newContent.MealNumber;
-                oldContent.MealName = newContent.MealName;
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
+        // U - Unused
 
         // D
         public bool RemoveEntryFromList(int mealNumber)

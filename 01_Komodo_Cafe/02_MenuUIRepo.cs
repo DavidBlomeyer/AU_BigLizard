@@ -27,7 +27,6 @@ namespace _01_Komodo_Cafe
                                   $"Price: {content.MealPrice}");
             }
         }
-
         // See a Single Menu Item
         public void SeeASingleMenuItem()
         {
