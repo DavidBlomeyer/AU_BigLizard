@@ -27,7 +27,7 @@ namespace _03_Komodo_Badging
                 Console.Clear();
                 Console.WriteLine("     Hello.  Welcome to the Komodo Badging Menu App!\n" +
                                   "*********************************************************\n");
-                Console.WriteLine("Blurb");
+                Console.WriteLine("Home of the Badgers!");
                 Console.WriteLine("Select a menu option\n" +
                                   "1. Add a Badge\n" +
                                   "2. Edit a Badge\n" +

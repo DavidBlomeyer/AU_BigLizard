@@ -125,11 +125,11 @@ A8
 
 File Structure
 
-01_Komodo_Badging
+03_Komodo_Badging
     00_BadgesProgram
         01_BadgesProgramUI - ui
             02_BadgesUIRepo - methods
                 04_BadgesRepo - methods
                     03_BadgesPOCO - data(dictionary)
-01_Komodo_Badging_Test
+03_Komodo_Badging_Test
     Badging_Test

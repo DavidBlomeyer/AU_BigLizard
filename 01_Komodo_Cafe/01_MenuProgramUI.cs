@@ -27,7 +27,7 @@ namespace _01_Komodo_Cafe
                 Console.Clear();
                 Console.WriteLine("     Hello.  Welcome to the Komodo Cafe Menu App!\n" +
                                   "*******************************************************\n");
-                Console.WriteLine("Blurb");
+                Console.WriteLine("Because nothing is more important to a well run Cafe then exhaustive Menu Planning!");
                 Console.WriteLine("Select a menu option\n" +
                                   "1. See the Full Menu\n" +
                                   "2. See a Single Menu Item\n" +

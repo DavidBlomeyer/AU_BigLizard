@@ -26,8 +26,8 @@ namespace _02_Komodo_Claims_Department
             {
                 Console.Clear();
                 Console.WriteLine("     Hello.  Welcome to the Komodo Claims Department Claims Queue App!\n" +
-                                  "*******************************************************\n");
-                Console.WriteLine("Blurb");
+                                  "***************************************************************************\n");
+                Console.WriteLine("Where you can look at stuff in a Queue!");
                 Console.WriteLine("Select a menu option\n" +
                                   "1. See All Claims\n" +
                                   "2. Take care of the next Claim\n" +
