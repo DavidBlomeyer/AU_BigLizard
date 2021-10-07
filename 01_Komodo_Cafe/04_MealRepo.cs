@@ -10,7 +10,7 @@ namespace _01_Komodo_Cafe
     public class MealContentRepo
     {
         // Instance the MealContent Object
-        private List<MealContent> _listOfMealContent = new List<MealContent>();
+        public static List<MealContent> _listOfMealContent = new List<MealContent>();
 
         // C
         public void AddEntryToList(MealContent content)

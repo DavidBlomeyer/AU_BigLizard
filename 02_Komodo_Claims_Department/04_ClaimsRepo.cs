@@ -10,7 +10,7 @@ namespace _02_Komodo_Claims_Department
     public class ClaimsContentRepo 
     {
         // Instance the ClaimsContent Object
-        private Queue<ClaimsContent> _queueOfClaimsContent = new Queue<ClaimsContent>();
+        public static Queue<ClaimsContent> _queueOfClaimsContent = new Queue<ClaimsContent>();
 
         // C
         public void EnqueueEntryToQueue(ClaimsContent content)

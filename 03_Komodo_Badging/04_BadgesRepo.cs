@@ -11,7 +11,7 @@ namespace _03_Komodo_Badging
     public class BadgesContentRepo 
     {
         // Instance the BadgesContent Object
-        private IDictionary<int, BadgesContent> _dictionaryOfBadgesContent = new Dictionary<int, BadgesContent>();
+        public static IDictionary<int, BadgesContent> _dictionaryOfBadgesContent = new Dictionary<int, BadgesContent>();
 
         // C
         public void AddEntryToDictionary(BadgesContent content)
