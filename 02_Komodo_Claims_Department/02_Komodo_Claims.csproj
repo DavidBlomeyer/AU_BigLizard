@@ -51,7 +51,6 @@
     <Compile Include="02_ClaimsUIRepo.cs" />
     <Compile Include="03_ClaimsPOCO.cs" />
     <Compile Include="04_ClaimsRepo.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
